@@ -6,13 +6,23 @@
 # Normal rules
 #
 
-*.rej
-*.orig
-*.a
+
+# Object files
 *.o
 *.o*
 *.cmd
-*~
 
+# Libraries
+*.lib
+*.a
 
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
+# Executables
+*.exe
+*.out
+*.app
