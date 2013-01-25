@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # NOTE! Don't add files that are generated in specific
 # subdirectories here. Add them in the ".gitignore" file
@@ -11,6 +12,10 @@
 *.o
 *.o*
 *.cmd
+=======
+# Object files
+*.o
+>>>>>>> 4ffdad6d6d3f06eec988e648923da536c3b427b2
 
 # Libraries
 *.lib
@@ -25,4 +30,8 @@
 # Executables
 *.exe
 *.out
+<<<<<<< HEAD
 *.app
+=======
+*.app
+>>>>>>> 4ffdad6d6d3f06eec988e648923da536c3b427b2
