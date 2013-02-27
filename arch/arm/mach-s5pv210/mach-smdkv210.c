@@ -547,7 +547,8 @@ static struct i2c_board_info i2c_devs5[] __initdata = {
 #define NUM_BUFFER 8
 #endif
 #define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_FIMC1 (9900 * SZ_1K)
-#define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_FIMC2 (6144 * SZ_1K)
+//6144
+#define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_FIMC2 (24576 * SZ_1K)
 #define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_FIMC0 (24576 * SZ_1K)
 #define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_MFC0 (36864 * SZ_1K)
 #define  S5PV210_VIDEO_SAMSUNG_MEMSIZE_MFC1 (36864 * SZ_1K)
@@ -973,7 +974,7 @@ static struct s3cfb_lcd lcdhj101= {
 	.width = 1280,
 	.height = 800,
 	.bpp = 32,
-	.freq = 60,
+	.freq = 70,
 
 	.timing = {
 		.h_fp = 72,

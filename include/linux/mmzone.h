@@ -21,9 +21,10 @@
 
 /* Free memory management - zoned buddy allocator.  */
 #ifndef CONFIG_FORCE_MAX_ZONEORDER
-#define MAX_ORDER 11
+#define MAX_ORDER 12
 #else
 #define MAX_ORDER CONFIG_FORCE_MAX_ZONEORDER
+//#define MAX_ORDER 12
 #endif
 #define MAX_ORDER_NR_PAGES (1 << (MAX_ORDER - 1))
 

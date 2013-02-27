@@ -17,7 +17,7 @@ obj-$(CONFIG_FB_S3C_MDNIE)      += s3cfb_mdnie.o s3cfb_ielcd.o
 obj-$(CONFIG_FB_S3C_CMC623)     += tune_cmc623.o
 
 obj-$(CONFIG_FB_S3C_LCD_NT11003) +=s3cfb_lcdnt11003.o
-obj-$(CONFIG_FB_S3C_LCD_HJ101) += lcdhj101.o
+obj-$(CONFIG_FB_S3C_LCD_HJ101) += s3cfb_lcdhj101.o
 endif
 
 ifeq ($(CONFIG_FB_S3C_DEBUG),y)

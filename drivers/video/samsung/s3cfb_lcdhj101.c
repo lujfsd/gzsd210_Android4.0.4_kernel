@@ -15,7 +15,7 @@ static struct s3cfb_lcd lcdhj101= {
 	.width = 1280,
 	.height = 800,
 	.bpp = 32,
-	.freq = 60,
+	.freq = 70,
 
 	.timing = {
 		.h_fp = 72,
